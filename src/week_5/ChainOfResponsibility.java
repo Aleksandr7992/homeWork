@@ -45,7 +45,7 @@ class ChainSecond extends Chain {
     }
 }
 
-public class ChainofResponsibility {
+public class ChainOfResponsibility {
     public static void main(String[] args) {
         ChainFirst first = new ChainFirst(Chain.LEVEL1);
         ChainSecond second = new ChainSecond(Chain.LEVEL2);
